@@ -13,7 +13,7 @@ import CardActions from '@material-ui/core/CardActions';
 const useStyles = makeStyles(theme => ({
   card: {
     maxWidth: 240,
-    marginTop: theme.spacing(2),
+    marginTop: theme.spacing(3),
     marginLeft: 'auto',
     marginRight: 'auto'
   },
