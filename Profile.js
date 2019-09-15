@@ -13,7 +13,7 @@ import CardActions from '@material-ui/core/CardActions';
 const useStyles = makeStyles(theme => ({
   card: {
     maxWidth: 240,
-    marginTop: theme.spacing(2),
+    marginTop: theme.spacing(3),
     marginLeft: 'auto',
     marginRight: 'auto'
   },
@@ -40,7 +40,7 @@ function Profile({ avatarPath, nickname, experience, editingAvailable }) {
           <Typography component="h2" variant="h5" gutterBottom>
             {nickname}
           </Typography>
-          <Typography component="p" variant="body2">
+          <Typography component="p" variant="body1">
             {experience} опыта
           </Typography>
         </CardContent>
